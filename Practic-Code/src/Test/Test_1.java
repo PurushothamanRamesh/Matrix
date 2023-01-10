@@ -13,7 +13,7 @@ public class Test_1 {
 			}
 			System.out.println();
 		}
-		
+
 		// tranfer the matrix
 		
         System.out.println("printing the Transpose  Matrix ");
@@ -31,19 +31,6 @@ public class Test_1 {
 			}
 			System.out.println();
 		}
-        
-
-	
-		
-		
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();	
 	}
 
 }
