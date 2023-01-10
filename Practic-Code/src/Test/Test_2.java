@@ -36,13 +36,22 @@ public class Test_2 {
 		int temp=0;
 		// Transpose the matrix 
 		for (int i = 0; i <row; i++) {
-			for (int j = 0; j <i; j++) {
+			for (int j =i+1; j <col; j++) {
 
 				temp=matrix[i][j];
 				matrix[i][j]=matrix[j][i];
 				matrix[j][i]=temp;
 			}
 		}
+		
+//		for (int i = 0; i <row; i++) {
+//			for (int j =0; j <i; j++) {
+//
+//				temp=matrix[i][j];
+//				matrix[i][j]=matrix[j][i];
+//				matrix[j][i]=temp;
+//			}
+//		}
 		System.out.println("PRINT THE MATRIX AFTER THE TRANSPOSE ");
 		for (int i = 0; i <row; i++) {
 			for (int j = 0; j < col; j++) {
