@@ -3,7 +3,9 @@ package Test;
 
 public class Test_1 {
 	public static void main(String[] args) {
-		int[][] arr= {{5,8,6},{9,5,3},{5,2,7}};
+		int[][] arr= {{5,8,6},
+				      {9,5,3},
+				      {5,2,7}};
 		int[][] trr=new int [3][3];
 		// printing the matrix before change
         System.out.println("printing the normal Matrix ");
