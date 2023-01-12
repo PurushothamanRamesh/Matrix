@@ -4,7 +4,7 @@ import java.util.*;
 
 /*
  how to transpose a matrix without using the  temp matrix
-*/
+*///
 
 public class Test_2 {
 	public static void main(String[] args) {
